@@ -1,6 +1,5 @@
 import './App.css';
 import {Header} from './myComponents/Header';
-import {Footer} from './myComponents/Footer';
 import {MainSec} from './myComponents/MainSec';
 
 function App() {
@@ -8,7 +7,6 @@ function App() {
     <>
     <Header/>
     <MainSec/>
-    <Footer/>
     </>
   );
 }

@@ -9,13 +9,12 @@ export const Portfolio = () => {
         <div className="portfolio__container container swiper-container">
             <div className="swiper-wrapper">
                 <div className="portfolio__container grid swiper-slide">
-                    <img src="assets/img/portfolio1.jpg" alt="" className="portfolio__img"/>
+                    <img src="assets/img/blog.png" alt="" className="portfolio__img"/>
 
                     <div className="portfolio__data">
-                        <h3 className="portfolio__title">Modern Website</h3>
-                        <p className="portfolio__description">Website adaptable to all devices and animated
-                            interactions.</p>
-                        <a href="#" className="button button--flex button--small portfolio__button">
+                        <h3 className="portfolio__title">Shan Blog</h3>
+                        <p className="portfolio__description">This is a simple Blog Application using django.</p>
+                        <a href="http://shankarswarup.pythonanywhere.com/" className="button button--flex button--small portfolio__button">
                             Demo
                             <i className="uil uil-arrow-right button__icon"></i>
                         </a>
@@ -23,13 +22,12 @@ export const Portfolio = () => {
                 </div>
 
                 <div className="portfolio__container grid swiper-slide">
-                    <img src="assets/img/portfolio2.jpg" alt="" className="portfolio__img"/>
+                    <img src="assets/img/medical.png" alt="" className="portfolio__img"/>
 
                     <div className="portfolio__data">
-                        <h3 className="portfolio__title">Brand Design</h3>
-                        <p className="portfolio__description">Website adaptable to all devices and animated
-                            interactions.</p>
-                        <a href="#" className="button button--flex button--small portfolio__button">
+                        <h3 className="portfolio__title">Medical Website</h3>
+                        <p className="portfolio__description">This website helps us to book an online appointment to doctor.</p>
+                        <a href="https://shankarswarup.github.io/Medical_Website/" className="button button--flex button--small portfolio__button">
                             Demo
                             <i className="uil uil-arrow-right button__icon"></i>
                         </a>
@@ -37,13 +35,12 @@ export const Portfolio = () => {
                 </div>
 
                 <div className="portfolio__container grid swiper-slide">
-                    <img src="assets/img/portfolio3.jpg" alt="" className="portfolio__img"/>
+                    <img src="assets/img/hotel.png" alt="" className="portfolio__img"/>
 
                     <div className="portfolio__data">
-                        <h3 className="portfolio__title">Online Store</h3>
-                        <p className="portfolio__description">Website adaptable to all devices and animated
-                            interactions.</p>
-                        <a href="#" className="button button--flex button--small portfolio__button">
+                        <h3 className="portfolio__title">Hotel Website</h3>
+                        <p className="portfolio__description">This Website is a simple hotel static website.</p>
+                        <a href="https://shankarswarup.github.io/Sample_hotel_website/" className="button button--flex button--small portfolio__button">
                             Demo
                             <i className="uil uil-arrow-right button__icon"></i>
                         </a>
